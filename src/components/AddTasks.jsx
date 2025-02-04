@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Input from "./Input";
 
-function AddTask2({ onAddTaskSubmit }) {
+function AddTasks({ onAddTaskSubmit }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
@@ -38,4 +38,4 @@ function AddTask2({ onAddTaskSubmit }) {
   );
 }
 
-export default AddTask2;
+export default AddTasks;
